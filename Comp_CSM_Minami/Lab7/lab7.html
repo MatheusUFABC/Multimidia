@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Principios de Codificação da Voz</title>
+<audio autoplay="autoplay" controls="controls" loop="loop">
+			<source src="audio.m4a" type="audio/x-m4a" />
+			seu navegador não suporta HTML5
+	</audio>
+</head>
+
+<body style="background-image: url('fundo.jpg')">
+
+<center>
+<h1>Lab 7 - Principios de Codificação da Voz</h1>
+
+<h1> Primeira parte: Áudios originais </h1>
+
+	<h2> Texto do áudio:
+		<p>Entre por esta porta agora, e diga que me adora, você tem meia hora pra mudar a minha vida, vem, vambora, que o que você demora é o que o tempo leva</p>
+	</h2>
+	<h2> Audio original
+		<p></p>
+			<audio controls><source src="audio_original.wav" type="audio/ogg" ></audio>
+		<p></p>
+	</h2>	
+	<h2> Audio Matheus
+		<p></p>
+			<audio controls><source src="audio_Matheus.m4a" type="audio/x-m4a" ></audio>
+		<p></p>
+	</h2>
+	<h2> Audio Sheila
+		<p></p>
+			<audio controls><source src="audio_Sheila.m4a" type="audio/x-m4a" ></audio>
+		<p></p>
+	</h2>
+	
+</h1>	
+
+<h1> Segunda parte: Plots dos áudios - completo
+	<h2> Audio original
+		<p></p>
+			<img src="plot_original.png" width=1000>
+		<p></p>
+	</h2>	
+	<h2> Audio Matheus
+		<p></p>
+			<img src="plot_matheus.png" width=1000>
+		<p></p>
+	</h2>	
+	<h2> Audio Sheila
+		<p></p>
+			<img src="plot_sheila.png" width=1000>
+		<p></p>
+	</h2>	
+</h1>
+
+<h1> Terceira parte: Plots dos áudios - primeira estrofe
+	<h2> Audio original
+		<p></p>
+			<audio controls><source src="audio_original_primeira.wav" type="audio/ogg" ></audio>
+		<p></p>
+			<img src="plot_original_primeira.png" width=1000>
+		<p></p>
+	</h2>	
+	<h2> Audio Matheus
+		<p></p>
+			<audio controls><source src="audio_matheus_primeira.wav" type="audio/ogg" ></audio>
+		<p></p>
+			<img src="plot_matheus_primeira.png" width=1000>
+		<p></p>
+	</h2>	
+	<h2> Audio Sheila
+		<p></p>
+			<audio controls><source src="audio_sheila_primeira.wav" type="audio/ogg" ></audio>
+		<p></p>
+			<img src="plot_sheila_primeira.png" width=1000>
+		<p></p>
+	</h2>	
+</h1>
+
+<h1> Quarta parte: Cálculo dos Parâmetros LPC, separação U/UV e Espectro + Envoltória LPC
+	<h2> Audio original
+		<h3>Limiar VAD 7.53</h3>
+		<h3>Limiar U/UV 10.23</h3>
+		<h3>Sonoros = 28 e Surdos = 8</h3>
+		<p></p>
+			<img src="energia_original.png" width=1000>
+		<p></p>
+			<img src="segmentos_original.png" width=1000>
+		<p></p>
+			<img src="segmentos_original2.png" width=1000>
+		<p></p>
+	</h2>	
+	<h2> Audio Matheus
+		<h3>Limiar VAD 35.07</h3>
+		<h3>Limiar U/UV 37.77</h3>
+		<h3>Sonoros = 17 e Surdos = 9</h3>
+		<p></p>
+			<img src="energia_matheus.png" width=1000>
+		<p></p>
+			<img src="segmentos_matheus.png" width=1000>
+		<p></p>
+			<img src="segmentos_matheus2.png" width=1000>
+		<p></p>
+	</h2>	
+	<h2> Audio Sheila
+		<h3>Limiar VAD 34.36</h3>
+		<h3>Limiar U/UV 37.06</h3>
+		<h3>Sonoros = 9 e Surdos = 7 </h3>
+		<p></p>
+			<img src="energia_sheila.png" width=1000>
+		<p></p>
+			<img src="segmentos_sheila.png" width=1000>
+		<p></p>
+			<img src="segmentos_sheila2.png" width=1000>
+		<p></p>
+	</h2>	
+</h1>
+
+<h1> Quinta parte: f0 e pitch
+	<h2> Audio original
+		<p></p>
+			<img src="f0_original.png" width=500>
+		<p></p>
+			<img src="pitch_original.png" width=500>
+		<p></p>
+			<img src="estimacao_f0_original.png" width=500>
+		<p></p>
+	</h2>	
+	<h2> Audio Matheus
+		<p></p>
+			<img src="f0_matheus.png" width=500>
+		<p></p>
+			<img src="pitch_matheus.png" width=500>
+		<p></p>
+			<img src="estimacao_f0_matheus.png" width=500>
+		<p></p>
+	</h2>	
+	<h2> Audio Sheila
+		<p></p>
+			<img src="f0_sheila.png" width=500>
+		<p></p>
+			<img src="pitch_sheila.png" width=500>
+		<p></p>
+			<img src="estimacao_f0_sheila.png" width=500>
+		<p></p>
+	</h2>	
+</h1>
+
+	
+	
+</center>
+</body>
+</html>
+
